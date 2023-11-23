@@ -16,4 +16,5 @@ zcu111:
 	$(MAKE) -C boards/ZCU111/rfsoc_radio/
 
 tarball:
+	mkdir outputs
 	tar -czvf outputs/rfsoc_radio.tar.gz --exclude=./outputs .
