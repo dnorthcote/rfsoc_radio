@@ -24,6 +24,7 @@
 *vivado.log
 
 # Ignore ./rfstrath/rfstrath/
+*\outputs
 **/rfsoc_radio/block_design
 **/rfsoc_radio/bitstream
 rfsoc_radio.tar.gz
