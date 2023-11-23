@@ -58,11 +58,11 @@ class package_installer():
               description=self.description)
 
 package_installer(name = "rfsoc_radio",
-                  version = "0.3.4",
+                  version = "0.4.0",
                   description  = "PYNQ example of using the RFSoC as a radio transceiver.",
                   author = "David Northcote",
                   email = "david.northcote@strath.ac.uk",
                   license = "BSD 3-Clause License",
                   url = "https://github.com/strath-sdr/rfsoc_radio.git",
-                  pynq_version = "pynq>=2.7",
+                  pynq_version = "pynq==3.0.1",
                   board = os.environ['BOARD'])
